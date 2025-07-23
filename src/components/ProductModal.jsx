@@ -5,6 +5,7 @@ import {
 } from "../api/categories"; // Make sure these are correctly named in api/categories.js
 
 const ProductModal = ({ isOpen, onClose, onSubmit, initialData }) => {
+  
   const [formData, setFormData] = useState({
     name: "",
     price: "",
